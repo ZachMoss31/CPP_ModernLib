@@ -1,0 +1,71 @@
+Language Features
+
+Move Semantics
+	Move construction and move assignment, as well as std::move()
+	myObject(myObject obj&&) {}
+	myObject operator(myObject obj&&) {}
+
+Variadic Templates
+
+Forwarding Refs
+
+Initializer Lists
+	Constructor initializer lists, i.e., myObject(int player, float speed) : index(player), maxSpeed(speed) {}
+
+Static Assertions
+	Used to throw different data to the compiler using assert
+
+Auto
+	auto mySmrtPtr = make_unique<int>(5);
+
+Lambda Expressions
+	auto PushInto = [&] (int n) { myVec.push_back(n); } 
+	PushInto(20);
+
+Decltype
+
+Type Aliases
+
+Nullptr
+
+Strongly-typed enums
+
+Attributes
+
+Constexpr
+
+Delegating constructors
+
+User-Def literals
+
+Explicit virtual overrides
+
+Final specifier
+
+Default Functions
+
+Deleted Functions
+
+Range-Based For Loops
+
+Special Member functions for move semantics
+
+Converting Constructors
+
+Explicit Conversion Functions
+
+Inline-Namespaces
+
+Non-Static Data Member Initializers
+
+Right Angle Brackets
+
+Ref-Qualifed Member Functions
+
+Trailing Return Types
+
+NoExcept Specifier
+
+char32_t and char16_t
+
+Raw String Literals
